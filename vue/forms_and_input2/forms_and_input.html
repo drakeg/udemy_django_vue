@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Class and Style Binding</title>
+    <style>
+        .circle {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <p v-if="errors" class="mt-2" styles="text-align: center">{{ errors }}</p>
+        <div class="row justify-content-center mt-3">
+            <form @submit.prevent="onSubmit">
+                <div class="form-group">
+                    <label for="commentText">Publish a comment</label>
+                    <textarea v-model="comment" class="form-control" id="commentText" cols="80" rows="8"></textarea>
+                </div>
+                <button class="btn btn-sm btn-primary"
+                        type="submit">Publish
+                </button>
+            </form>
+        </div>
+        <div class="row justify-content-center mt-3">
+            <div class="col-10">
+                <div class="card mt-1" v-for="comment in comments">
+                    <div class="card-body">{{ comment }}</div>
+                </div>
+            </div>
+        </div>
+           
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

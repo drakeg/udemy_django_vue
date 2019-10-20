@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Class and Style Binding</title>
+    <style>
+        .circle {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="row justify-content-center mt-3">
+            <div class="circle"
+                 v-bind:style="{ backgroundColor: color }"></div>
+        </div>
+
+        <div class="row justify-content-center mt-3">
+            <input type="text" v-model="color">
+        </div>
+
+        <div class="row justify-content-center mt-3">
+            <p>Color Data: {{ color }}</p>
+        </div>
+
+        <div class="row justify-content-center mt-3">
+            <div class="col-5">
+                <p>Write a message!</p>
+                <textarea v-model="text" class="form-control" placeholder="write something" cols="60" rows="5"></textarea>
+            </div>
+            <div class="col-5">
+                <p>Message</p>
+                <p>{{ text }}</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center mt-3">
+            <input type="checkbox" id="checkbox" v-model="checked">
+            <label for="checkbox">&nbsp;&nbsp;Value: {{ checked }}</label>
+        </div>
+
+        <div class="row justify-content-center mt-3">
+            <select v-model="city">
+                <option>Rome</option>
+                <option>New York</option>
+                <option>Chicago</option>
+                <option>London</option>
+            </select>
+            <span>&nbsp;&nbsp;City: {{ city }}</span>
+        </div>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
