@@ -3,11 +3,13 @@
 
 {% block content %}
 <h1>Login</h1>
+<p class="lead text-muted">Share your knowledge!</p>
 <div class="login-form-container">
     <form method="POST">
         {% csrf_token %}
         {{ form|crispy }}
         <button type="submit" class="btn btn-sm btn-outline-primary">Login</button>
     </form>
+    <p class="mt-2">Or <a href="{% url 'django_registration_register' %}">create an account</a></p>
 </div>
 {% endblock %}
