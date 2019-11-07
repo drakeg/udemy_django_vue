@@ -21,10 +21,12 @@ class AnswerSerializer(serializers.ModelSerializer):
         request = self.context.get("request")
         return instance.voters.filter(pk=request.user.pk).exists()
 
+    def get_question_slug(self, instance):
+        return instance.question.slug
 class QuestionSerializer(serializers.ModelSerializer):
     author = serializers.StringRelatedField(read_only=True)
     created_at = serializers.SerializerMethodField()
-    slug = serializers.SlugField()
+    slug = serializers.SlugField(read_only=True)
     answers_count = serializers.SerializerMethodField()
     user_has_answered = serializers.SerializerMethodField()
 

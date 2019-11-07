@@ -1,7 +1,7 @@
 {% extends 'auth_layout.html' %}
 {% load crispy_forms_tags %}
 
-{% block content %}
+{% block auth %}
 <h1>Login</h1>
 <p class="lead text-muted">Share your knowledge!</p>
 <div class="login-form-container">
@@ -12,4 +12,4 @@
     </form>
     <p class="mt-2">Or <a href="{% url 'django_registration_register' %}">create an account</a></p>
 </div>
-{% endblock %}
+{% endblock auth %}
