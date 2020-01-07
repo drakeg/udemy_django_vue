@@ -2,7 +2,7 @@ astroid==2.3.3
 autopep8==1.4.4
 certifi==2019.11.28
 chardet==3.0.4
-colorama==0.4.1
+colorama==0.4.3
 confusable-homoglyphs==3.2.0
 defusedxml==0.6.0
 Django==3.0.2
