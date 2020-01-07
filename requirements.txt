@@ -6,7 +6,7 @@ colorama==0.4.1
 confusable-homoglyphs==3.2.0
 defusedxml==0.6.0
 Django==3.0.2
-django-allauth==0.40.0
+django-allauth==0.41.0
 django-crispy-forms==1.8.1
 django-registration==3.0.1
 django-rest-auth==0.9.5
