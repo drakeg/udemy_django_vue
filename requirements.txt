@@ -7,7 +7,7 @@ confusable-homoglyphs==3.2.0
 defusedxml==0.6.0
 Django==3.0.5
 django-allauth==0.41.0
-django-crispy-forms==1.9.0
+django-crispy-forms==1.9.1
 django-registration==3.1
 django-rest-auth==0.9.5
 django-webpack-loader==0.7.0
