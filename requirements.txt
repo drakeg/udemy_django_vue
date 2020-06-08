@@ -1,6 +1,6 @@
 astroid==2.4.1
 autopep8==1.5.2
-certifi==2020.4.5.1
+certifi==2020.4.5.2
 chardet==3.0.4
 colorama==0.4.3
 confusable-homoglyphs==3.2.0
