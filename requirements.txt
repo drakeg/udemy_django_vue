@@ -13,7 +13,7 @@ django-rest-auth==0.9.5
 django-webpack-loader==0.7.0
 djangorestframework==3.11.0
 idna==2.10
-isort==5.0.7
+isort==5.0.8
 lazy-object-proxy==1.5.0
 mccabe==0.6.1
 oauthlib==3.1.0
