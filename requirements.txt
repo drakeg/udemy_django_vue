@@ -17,7 +17,7 @@ isort==5.9.2
 lazy-object-proxy==1.6.0
 mccabe==0.6.1
 oauthlib==3.1.0
-Pillow==7.1.2
+Pillow==8.1.1
 pycodestyle==2.6.0
 pylint==2.5.3
 python3-openid==3.1.0
