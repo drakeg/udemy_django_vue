@@ -1,5 +1,5 @@
+autopep8==1.5.7
 astroid==2.6.5
-autopep8==1.5.2
 certifi==2021.5.30
 chardet==4.0.0
 colorama==0.4.4
