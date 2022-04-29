@@ -14,7 +14,7 @@ django-webpack-loader==0.7.0
 djangorestframework==3.12.4
 idna==3.2
 isort==5.9.2
-lazy-object-proxy==1.6.0
+lazy-object-proxy==1.7.1
 mccabe==0.7.0
 oauthlib==3.1.0
 Pillow==9.0.1
