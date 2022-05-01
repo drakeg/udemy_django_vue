@@ -28,4 +28,4 @@ six==1.16.0
 sqlparse==0.4.2
 typed-ast==1.5.3
 urllib3==1.26.9
-wrapt==1.12.1
+wrapt==1.14.0
