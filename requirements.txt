@@ -1,6 +1,6 @@
 autopep8==1.6.0
 astroid==2.13.2
-certifi==2021.10.8
+certifi==2022.12.07
 chardet==4.0.0
 colorama==0.4.4
 confusable-homoglyphs==3.2.0
@@ -16,9 +16,9 @@ idna==3.2
 isort==5.10.1
 lazy-object-proxy==1.7.1
 mccabe==0.7.0
-oauthlib==3.2.0
+oauthlib==3.2.2
 pycodestyle==2.8.0
-pylint==2.13.7
+pylint==2.15.10
 python3-openid==3.2.0
 pytz==2022.1
 Pillow>=9.1.1
