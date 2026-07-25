@@ -20,7 +20,7 @@ oauthlib==3.3.1
 pycodestyle==2.14.0
 pylint==3.3.9
 python3-openid==3.2.0
-pytz==2024.2
+pytz==2026.3.post1
 Pillow>=10.2.0
 requests==2.34.2
 requests-oauthlib==2.0.0
