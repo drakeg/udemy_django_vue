@@ -8,7 +8,7 @@ defusedxml==0.7.1
 Django>=4.1.5
 django-allauth==65.18.0
 django-crispy-forms==2.6
-django-registration==3.4
+django-registration==5.2.1
 django-rest-auth==0.9.5
 django-webpack-loader==3.2.4
 djangorestframework==3.17.1
